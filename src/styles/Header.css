@@ -1,0 +1,37 @@
+.header {
+     height: 100px;
+    width: 100%;
+    cursor: pointer;
+    /* position: fixed; */
+  display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: hsl(0deg 0% 13% / 50%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    /* margin-left: -5px; */
+    /* padding-bottom: 15px; */
+    box-shadow: 0px 1px 5px black;
+    color: hsl(240deg 48% 6%);
+}
+.title{
+       margin-top: 20px;
+    text-decoration-line: overline;
+        font-weight: bolder;
+}
+.logo{
+  
+       height: 30px;
+    width: 20px;
+    /* margin-left: 45px; */
+    margin-right: 518px;
+    display: inline-table;
+    margin-top: -29px;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    padding-top: 15px;
+    font-size: 6.4vw;
+  }
+}
